@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <link rel="stylesheet" href="./assets/bs/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/bs/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/mystyle.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-4 col-lg-2 col-md-2 col-sm-4 desktop-res">
+                <h2>DesignHub</h2>
+            </div>
+            <div class="col-xl-8 col-lg-10 col-md-10 col-sm-8 desktop-res">
+                <ul class="desktop-ul">
+                    <li><a class="line" href="">Contact Us</a></li> 
+                    <li><a class="line" href="">Blog</a></li> 
+                    <li><a class="line" href="">Work</a></li>
+                    <li><a class="line" href="">Pricing</a></li> 
+                    <li><a class="line" href="">Serives</a></li>
+                    <li><a class="line" href="">About Us</a></li>
+                    <li><a class="line" href="">Home</a></li>      
+                    <li><a onclick="showNav()" class="bar open"><i class="fa-solid fa-bars"></i></a></li>
+                    <li><a class="bar close"><i class="fa-solid fa-xmark"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-12 mobile-res" id="mobile-nav-show">
+            <ul class="mobile-ul" >
+                <li><a class="line mobile" href="">Home</a></li>
+                <li><a class="line mobile" href="">About Us</a></li>
+                <li><a class="line mobile" href="">Serives</a></li>
+                <li><a class="line mobile" href="">Pricing</a></li>
+                <li><a class="line mobile" href="">Work</a></li>
+                <li><a class="line mobile" href="">Blog</a></li>
+                <li><a class="line mobile" href="">Contact Us</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+</nav>
+<section class="home">
+    <div class="container-md maxWidth">
+        <div class="row">
+            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-7 pb-5">
+                <h1>Get the best designs for your website</h1>
+                <p style="color: rgb(218, 218, 218)">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="" class="button">Start a Project</a>
+                <a href="" class="button-accent">Contact Us</a>
+                <div class="socials">
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-4 homeImage">
+                <img src="./assets/images/home.png">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ourServices">
+    <div class="container-lg maxWidth">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 pr-5 pt-5">
+                <h5>OUR SERVICES</h5>
+                <h2>We provide a lot of cool services</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="" class="button-accent">Our Services</a>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 mt-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm text-center" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="crd">
+                            <i class="fa-solid fa-mobile-screen icons"></i>
+                            <h4>Mobile Responsive</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="crd">
+                            <i class="fa-regular fa-copyright icons"></i>
+                            <h4>Branding Identity</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="crd">
+                            <i class="fa-solid fa-palette icons"></i>
+                            <h4>Creative</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+                    </div>     
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="crd">
+                            <i class="fa-solid fa-bug-slash icons"></i>
+                            <h4>Optimization</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="crd">
+                            <i class="fa-solid fa-display icons"></i>
+                            <h4>UI/UX Designs</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 text-center pb-5" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="crd">
+                            <i class="fa-solid fa-chart-simple icons"></i>
+                            <h4>Marketing</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                        </div>
+                    </div>                       
+                </div>                    
+            </div> 
+            
+            </div>   
+            <div class="row projects">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <img src="./assets/images/projects.jpg" class="img-fluid">
+                </div>    
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 text-center chart">
+                    <h3 class="num">2721</h3>
+                    <h4>Projects Done</h4>
+                </div>  
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 text-center chart">
+                    <h3 class="num">1423</h3>
+                    <h4>Optimized Sites</h4>
+                </div> 
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 text-center chart">
+                    <h3 class="num">534</h3>
+                    <h4>Daily Visits</h4>
+                </div> 
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 text-center chart">
+                    <h3 class="num">4144</h3>
+                    <h4>Customers</h4>
+                </div> 
+            </div>    
+    </div>
+</section>
+<section class="about-us pt-5">
+    <div class="container-md maxWidth">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 pb-5">
+                <img src="./assets/images/about.jpg" class="img-fluid" alt="About Us">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="1200">
+                <h5>About Us</h5>
+                <h2>We are a Web Designing Company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="" class="button mb-5">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="team">
+    <div class="container-md maxWidth text-center">
+        <div class="row">
+            <div class="col-12">
+                <h5>TEAM</h5>
+                <h2>Our Digital Experts Team</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pb-5" data-aos="fade-up" data-aos-duration="1000">  
+                        <div class="portrait">
+                            <img src="./assets/images/team1.jpg" alt="Team" class="img-fluid"> 
+                            <div class="socials">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>      
+                            <h4 class="pt-3">Ashley Graham</h4>        
+                            <p>CEO & Founder</p> 
+                        </div>              
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pb-5" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="portrait">
+                            <img src="./assets/images/team2.jpg" alt="Team" class="img-fluid">
+                            <div class="socials">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>       
+                            <h4 class="pt-3">Leon Scott Kennedy</h4>        
+                            <p>Full Stack Developer</p> 
+                        </div> 
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pb-5" data-aos="fade-up" data-aos-duration="1400">
+                        <div class="portrait">
+                            <img src="./assets/images/team3.jpg" alt="Team" class="img-fluid"> 
+                            <div class="socials">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>    
+                            <h4 class="pt-3">Albert Wesker</h4>        
+                            <p>Full Stack Developer</p> 
+                            
+                        </div> 
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 pb-5" data-aos="fade-up" data-aos-duration="1600">
+                        <div class="portrait">
+                            <img src="./assets/images/team5.jpg" alt="Team" class="img-fluid"> 
+                            <div class="socials">
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>      
+                            <h4 class="pt-3">Ada Wong</h4>        
+                            <p>Lead Designer</p> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="customers">
+    <div class="container-md maxWidth">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h5>TESTIMONIALS</h5>
+                <h2>Happy Customers</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>              
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mt-4" data-aos="fade-up" data-aos-duration="1200">  
+                <div class="customerReview">
+                     <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                        <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="customerCard">
+                            <img src="./assets/images/sample-profile.png" alt="picture" class="img-fluid">
+                                <div class="textCard">
+                                    <h4>Roger Scott</h4> 
+                                    <h5>Marketing Manager</h5> 
+                                </div> 
+                        </div>          
+                </div>      
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mt-4" data-aos="fade-up" data-aos-duration="1200">  
+                <div class="customerReview">
+                     <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                        <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="customerCard">
+                            <img src="./assets/images/sample-profile.png" alt="picture" class="img-fluid">
+                                <div class="textCard">
+                                    <h4>Roger Scott</h4> 
+                                    <h5>Marketing Manager</h5> 
+                                </div> 
+                        </div>          
+                </div>      
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mt-4 pb-5" data-aos="fade-up" data-aos-duration="1200">  
+                <div class="customerReview">
+                     <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                        <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="customerCard">
+                            <img src="./assets/images/sample-profile.png" alt="picture" class="img-fluid">
+                                <div class="textCard">
+                                    <h4>Roger Scott</h4> 
+                                    <h5>Marketing Manager</h5> 
+                                </div> 
+                        </div>          
+                </div>      
+            </div>
+        </div>                       
+    </div>
+</section>
+<section class="choose">
+    <div class="container-md maxWidth">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h5 style="color: white">WHY CHOOSE US</h5>
+                <h2 style="color: white">Easy Management for Your Businesses</h2>
+                <p class="description mt-4" style="color: white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.</p>              
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
+                <div class="crd text-center">
+                    <i class="fa-solid fa-list-check icons"></i>
+                    <h4 style="font-size: 1.5rem;">Easy Management</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1200">
+                <div class="crd text-center">
+                    <i class="fa-solid fa-shield icons"></i>
+                    <h4 style="font-size: 1.5rem;">High Security</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1400">
+                <div class="crd text-center">
+                    <i class="fa-solid fa-key icons"></i>
+                    <h4 style="font-size: 1.5rem;">Private Community</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1600">
+                <div class="crd text-center mb-5">
+                    <i class="fa-solid fa-gear icons"></i>
+                    <h4 style="font-size: 1.5rem;">24/7 Support</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <p class="description text-center mt-3 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet</p>
+    </div>
+</section>
+<section class="work">
+    <div class="row">
+        <div class="container fluid">
+            <div class="col-12 text-center">
+                <h5>OUR WORKS</h5>
+                <h2>Our Awesome Works</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row pt-5 mx-1">
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-2 mb-5" data-aos="flip-left" data-aos-duration="1200">
+                    <img src="./assets/images/web1.png" alt="Picture" class="img-fluid"> 
+                    <div class="card">          
+                        <div class="ourProject">    
+                            <p class="mx-3 mt-3">Website</p>
+                            <h4 class="mx-4 mb-3">High Quality Design Concept</h4>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-2 mb-5" data-aos="flip-left" data-aos-duration="1400">
+                    <img src="./assets/images/web2.jpeg" alt="Picture" class="img-fluid">
+                    <div class="card">           
+                        <div class="ourProject">    
+                            <p class="mx-3 mt-3">Website</p>
+                            <h4 class="mx-4 mb-3">High Quality Design Concept</h4>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-2 mb-5" data-aos="flip-left" data-aos-duration="1400">
+                    <img src="./assets/images/web3.png" alt="Picture" class="img-fluid">  
+                    <div class="card">    
+                        <div class="ourProject">    
+                            <p class="mx-3 mt-3">Website</p>
+                            <h4 class="mx-4 mb-3">High Quality Design Concept</h4>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-2 mb-5"  data-aos="flip-left" data-aos-duration="1600">
+                    <img src="./assets/images/web4.jpg" alt="Picture" class="img-fluid">
+                    <div class="card">      
+                        <div class="ourProject">    
+                            <p class="mx-3 mt-3">Website</p>
+                            <h4 class="mx-4 mb-3">High Quality Design Concept</h4>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-12 mb-5 text-center">
+                    <a href="" class="button mb-5 mt-5">Learn More</a>
+                </div>
+        </div>  
+    </div>
+</section>
+<section class="pricing">
+    <div class="container-md maxWidth">
+        <div class="row">
+            <div class="col-12 text-center pt-5">
+                <h5>PRICING</h5>
+                <h2>Choose your pricing plan</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="1200">
+                <div class="pricingCard text-center mb-5">
+                    <h1 style="color: var(--clr-primary); font-weight: 500;" class="pt-5 pb-3">$49</h1>
+                    <h4 class="pb-3">PERSONAL</h4>
+                    <i class="fa-solid fa-check pb-4"><span>3 Months Support</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>5GB Server Space</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>2 Users per Project</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>5 Downloads per day</span></i>       
+                    <i class="fa-solid fa-x pb-4"><span>Email Integration</span></i>
+                    <i class="fa-solid fa-x pb-4"><span>Own Domain Name</span></i>  
+                    <a href="" class="button mb-5 mt-5">Get Started</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="1600">
+                <div class="pricingCard text-center mb-5">
+                    <h1 style="color: var(--clr-primary); font-weight: 500;" class="pt-5 pb-3"><span class="sale" style="color: red;">$89</span> $69</h1>
+                    <h4 class="pb-3">PROFESSIONAL</h4>
+                    <i class="fa-solid fa-check pb-4"><span>6 Months Support</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>10GB Server Space</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>4 Users per Project</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>10 Downloads per day</span></i>       
+                    <i class="fa-solid fa-x pb-4"><span>Email Integration</span></i>
+                    <i class="fa-solid fa-x pb-4"><span>Own Domain Name</span></i>  
+                    <a href="" class="button mb-5 mt-5">Get Started</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
+                <div class="pricingCard text-center mb-5">
+                    <h1 style="color: var(--clr-primary); font-weight: 500;" class="pt-5 pb-3">$129</h1>
+                    <h4 class="pb-3">MEDIUM BUSINESS</h4>
+                    <i class="fa-solid fa-check pb-4"><span>1 Year Support</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>10GB Server Space</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>10 Users per Project</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>Unlimited Downloads</span></i>       
+                    <i class="fa-solid fa-check pb-4"><span>Email Integration</span></i>
+                    <i class="fa-solid fa-x pb-4"><span>Own Domain Name</span></i>  
+                    <a href="" class="button mb-5 mt-5">Get Started</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 pb-5" data-aos="flip-left" data-aos-duration="2400">
+                <div class="pricingCard text-center mb-5">
+                    <h1 style="color: var(--clr-primary); font-weight: 500;" class="pt-5 pb-3">$199</h1>
+                    <h4 class="pb-3">LARGE BUSINESS</h4>
+                    <i class="fa-solid fa-check pb-4"><span>Unlimited Support</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>50GB Server Space</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>50 Users per Project</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>Unlimited Downloads</span></i>       
+                    <i class="fa-solid fa-check pb-4"><span>Email Integration</span></i>
+                    <i class="fa-solid fa-check pb-4"><span>Own Domain Name</span></i>  
+                    <a href="" class="button mb-5 mt-5">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog">
+    <div class="container fluid">
+        <div class="row">
+            <div class="col-12 text-center mt-5">
+                <h5>OUR BLOG</h5>
+                <h2>Recent Blog</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-2 mb-5" data-aos="fade-up" data-aos-duration="1200">  
+                <img src="./assets/images/blog.jpg" alt="Picture" class="img-fluid"> 
+                <div class="blogCard"> 
+                    <h4 class="pt-3">Why Everyone Is Learning JavaScript</h4>
+                    <p>September 12, 2023</p>
+                    <h5 class="pb-3">BY BIEN G ENRIQUEZ</h5>
+                </div>             
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-2 mb-5" data-aos="fade-up" data-aos-duration="1400">    
+                <img src="./assets/images/blog2.jpg" alt="Picture" class="img-fluid">         
+                <div class="blogCard">    
+                    <h4 class="pt-3">Why Everyone Is Learning JavaScript</h4>
+                    <p>September 12, 2023</p>
+                    <h5 class="pb-3">BY BIEN G ENRIQUEZ</h5>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-2 mb-5" data-aos="fade-up" data-aos-duration="1600">
+                <img src="./assets/images/blog3.jpg" alt="Picture" class="img-fluid">             
+                <div class="blogCard">  
+                    <h4 class="pt-3">Why Everyone Is Learning JavaScript</h4>
+                    <p>September 12, 2023</p>
+                    <h5 class="pb-3">BY BIEN G ENRIQUEZ</h5>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mt-2 mb-5" data-aos="fade-up" data-aos-duration="1800">  
+                <img src="./assets/images/blog4.jpg" alt="Picture" class="img-fluid">           
+                <div class="blogCard">  
+                    <h4 class="pt-3">Why Everyone Is Learning JavaScript</h4>
+                    <p>September 12, 2023</p>
+                    <h5 class="pb-3">BY BIEN G ENRIQUEZ</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="newsletter">
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 pt-5 pb-4">
+                <h4>Newsletter - Stay tuned and get the latest update</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 pb-3">
+                <input type="email" name="email" placeholder="Enter Email Address">
+                <i class="fa-solid fa-paper-plane" style="color: #ffffff;" type="submit"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container-md maxWidth">
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 mt-5">
+                <h4>DesignHub</h4>
+                <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.</p>
+                <i class="fa-brands fa-twitter icons"></i>
+                <i class="fa-brands fa-facebook icons mx-3"></i>
+                <i class="fa-brands fa-linkedin icons"></i>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 mt-5">
+                <h4 class="pb-5">Explore</h4>
+                <ul>
+                    <li><a href="">> About Us</a></li>
+                    <li><a href="">> Services</a></li>
+                    <li><a href="">> Works</a></li>
+                    <li><a href="">> Blog</a></li>
+                    <li><a href="">> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 mt-5">
+                <h4 class="pb-5">Quick Links</h4>
+                <ul>
+                    <li><a href="">> Contact Us</a></li>
+                    <li><a href="">> Pricing</a></li>
+                    <li><a href="">> Terms & Conditions</a></li>
+                    <li><a href="">> Privacy</a></li>
+                    <li><a href="">> Feedbacks</a></li>
+                </ul>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 mt-5">
+                <h4 class="pb-5">Services</h4>
+                <ul>   
+                    <li><a href="">> Request a Website</a></li>
+                    <li><a href="">> Buy our Templates</a></li>
+                    <li><a href="">> Premium</a></li>
+                </ul>
+            </div>
+            <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 mt-5">
+                <h4 class="pb-5">Have a Questions?</h4>
+                <ul>   
+                    <li><i class="fa-solid fa-location-dot pb-3" style="color: var(--clr-primary); margin-right: 0.5rem;"></i><a href="">Rizal, La Paz, Tarlac</a></li>
+                    <li><i class="fa-solid fa-phone pb-3" style="color: var(--clr-primary); margin-right: 0.5rem;"></i><a href="">09496102102</a></li>
+                    <li><i class="fa-solid fa-envelope pb-3" style="color: var(--clr-primary); margin-right: 0.5rem;"></i><a href="">lynxxdevv@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="./assets/bs/js/bootstrap.js"></script>
+<script src="./assets/bs/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="./assets/myscript.js"></script>  
+<script>
+    AOS.init({once:true});
+  </script>
+</html>
