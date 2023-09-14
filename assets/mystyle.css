@@ -11,9 +11,11 @@
 }
 body *{
     font-family: Roboto, Arial, sans-serif;
-    overflow-y: hidden;
 }
 body{
+    overflow-x: hidden;
+}
+html{
     overflow-x: hidden;
 }
 .maxWidth {
